@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://help.passbolt.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://help.passbolt.com/" rel="alternate" type="text/html" /><updated>2020-09-29T12:14:31+02:00</updated><id>https://help.passbolt.com/feed.xml</id><title type="html">Passbolt | Help</title><subtitle>The help site for passbolt, the open source password manager for teams. This site contains frequently asked questions, article to troubleshoot common issues, installation tutorials, blueprints for developers, and more!</subtitle><entry><title type="html">Auto configure HTTPS with Let’s Encrypt on Debian</title><link href="https://help.passbolt.com/configure/https/ce/debian/auto.html" rel="alternate" type="text/html" title="Auto configure HTTPS with Let’s Encrypt on Debian" /><published>2020-09-20T02:00:00+02:00</published><updated>2020-09-20T02:00:00+02:00</updated><id>https://help.passbolt.com/configure/https/ce/debian/auto</id><content type="html" xml:base="https://help.passbolt.com/configure/https/ce/debian/auto.html">&lt;div class=&quot;row&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://thefirstwind.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://thefirstwind.github.io/" rel="alternate" type="text/html" /><updated>2020-11-03T12:11:28+08:00</updated><id>https://thefirstwind.github.io/feed.xml</id><title type="html">Kei Gosling’s blog</title><subtitle>The help site for passbolt, the open source password manager for teams. This site contains frequently asked questions, article to troubleshoot common issues, installation tutorials, blueprints for developers, and more!</subtitle><entry><title type="html">Auto configure HTTPS with Let’s Encrypt on Debian</title><link href="https://thefirstwind.github.io/configure/https/ce/debian/auto.html" rel="alternate" type="text/html" title="Auto configure HTTPS with Let’s Encrypt on Debian" /><published>2020-09-20T08:00:00+08:00</published><updated>2020-09-20T08:00:00+08:00</updated><id>https://thefirstwind.github.io/configure/https/ce/debian/auto</id><content type="html" xml:base="https://thefirstwind.github.io/configure/https/ce/debian/auto.html">&lt;div class=&quot;row&quot;&gt;
   &lt;div class=&quot;col7&quot;&gt;
 
     &lt;div class=&quot;message warning&quot;&gt;
@@ -40,35 +40,35 @@ you want to execute the following command to start the configuration process for
     &lt;p&gt;The following steps will guide you through the option that uses Let’s encrypt method to enable SSL.&lt;/p&gt;
 
     &lt;figure&gt;
-    &lt;img src=&quot;https://help.passbolt.com/assets/img/help/2020/05/debian-package/configure_nginx.png&quot; alt=&quot;Configure nginx dialog&quot; style=&quot;max-width:450px;&quot; /&gt;
+    &lt;img src=&quot;https://thefirstwind.github.io/assets/img/help/2020/05/debian-package/configure_nginx.png&quot; alt=&quot;Configure nginx dialog&quot; style=&quot;max-width:450px;&quot; /&gt;
     &lt;span class=&quot;legend&quot;&gt;fig. Configure nginx dialog&lt;/span&gt;
 &lt;/figure&gt;
 
     &lt;p&gt;After choosing yes you will be prompted with the following dialog where you can choose which method you prefer to configure SSL on nginx:&lt;/p&gt;
 
     &lt;figure&gt;
-    &lt;img src=&quot;https://help.passbolt.com/assets/img/help/2020/05/debian-package/nginx_choices.png&quot; alt=&quot;nginx SSL dialog&quot; style=&quot;max-width:450px;&quot; /&gt;
+    &lt;img src=&quot;https://thefirstwind.github.io/assets/img/help/2020/05/debian-package/nginx_choices.png&quot; alt=&quot;nginx SSL dialog&quot; style=&quot;max-width:450px;&quot; /&gt;
     &lt;span class=&quot;legend&quot;&gt;fig. nginx SSL dialog&lt;/span&gt;
 &lt;/figure&gt;
 
     &lt;p&gt;You will now need to introduce the name of the domain name assinged to your server:&lt;/p&gt;
 
     &lt;figure&gt;
-    &lt;img src=&quot;https://help.passbolt.com/assets/img/help/2020/05/debian-package/nginx_domain.png&quot; alt=&quot;nginx domain name&quot; style=&quot;max-width:450px;&quot; /&gt;
+    &lt;img src=&quot;https://thefirstwind.github.io/assets/img/help/2020/05/debian-package/nginx_domain.png&quot; alt=&quot;nginx domain name&quot; style=&quot;max-width:450px;&quot; /&gt;
     &lt;span class=&quot;legend&quot;&gt;fig. nginx domain name&lt;/span&gt;
 &lt;/figure&gt;
 
     &lt;p&gt;Finally you will need to provide an email address for Let’s encrypt to notify you for renewals and other admin info:&lt;/p&gt;
 
     &lt;figure&gt;
-    &lt;img src=&quot;https://help.passbolt.com/assets/img/help/2020/05/debian-package/lets_encrypt_email.png&quot; alt=&quot;lets encrypt admin email&quot; style=&quot;max-width:450px;&quot; /&gt;
+    &lt;img src=&quot;https://thefirstwind.github.io/assets/img/help/2020/05/debian-package/lets_encrypt_email.png&quot; alt=&quot;lets encrypt admin email&quot; style=&quot;max-width:450px;&quot; /&gt;
     &lt;span class=&quot;legend&quot;&gt;fig. lets encrypt admin email&lt;/span&gt;
 &lt;/figure&gt;
 
     &lt;p&gt;If everything goes fine you should see a final message that points you to finish passbolt configuration:&lt;/p&gt;
 
     &lt;figure&gt;
-    &lt;img src=&quot;https://help.passbolt.com/assets/img/help/2020/05/debian-package/success.png&quot; alt=&quot;Success message&quot; style=&quot;max-width:450px;&quot; /&gt;
+    &lt;img src=&quot;https://thefirstwind.github.io/assets/img/help/2020/05/debian-package/success.png&quot; alt=&quot;Success message&quot; style=&quot;max-width:450px;&quot; /&gt;
     &lt;span class=&quot;legend&quot;&gt;fig. Success message&lt;/span&gt;
 &lt;/figure&gt;
 
@@ -92,7 +92,7 @@ September
 
     &lt;p&gt;{ include layout/row_end.html %}&lt;/p&gt;
   &lt;/div&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="configure" /><category term="https" /><category term="ce" /><category term="debian" /><summary type="html"></summary></entry><entry><title type="html">Auto configure HTTPS with Let’s Encrypt on Debian</title><link href="https://help.passbolt.com/configure/https/pro/debian/auto.html" rel="alternate" type="text/html" title="Auto configure HTTPS with Let’s Encrypt on Debian" /><published>2020-09-20T02:00:00+02:00</published><updated>2020-09-20T02:00:00+02:00</updated><id>https://help.passbolt.com/configure/https/pro/debian/auto</id><content type="html" xml:base="https://help.passbolt.com/configure/https/pro/debian/auto.html">&lt;div class=&quot;row&quot;&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="configure" /><category term="https" /><category term="ce" /><category term="debian" /><summary type="html"></summary></entry><entry><title type="html">Auto configure HTTPS with Let’s Encrypt on Debian</title><link href="https://thefirstwind.github.io/configure/https/pro/debian/auto.html" rel="alternate" type="text/html" title="Auto configure HTTPS with Let’s Encrypt on Debian" /><published>2020-09-20T08:00:00+08:00</published><updated>2020-09-20T08:00:00+08:00</updated><id>https://thefirstwind.github.io/configure/https/pro/debian/auto</id><content type="html" xml:base="https://thefirstwind.github.io/configure/https/pro/debian/auto.html">&lt;div class=&quot;row&quot;&gt;
   &lt;div class=&quot;col7&quot;&gt;
 
     &lt;div class=&quot;message warning&quot;&gt;
@@ -134,35 +134,35 @@ you want to execute the following command to start the configuration process for
     &lt;p&gt;The following steps will guide you through the option that uses Let’s encrypt method to enable SSL.&lt;/p&gt;
 
     &lt;figure&gt;
-    &lt;img src=&quot;https://help.passbolt.com/assets/img/help/2020/05/debian-package/configure_nginx_pro.png&quot; alt=&quot;Configure nginx dialog&quot; style=&quot;max-width:450px;&quot; /&gt;
+    &lt;img src=&quot;https://thefirstwind.github.io/assets/img/help/2020/05/debian-package/configure_nginx_pro.png&quot; alt=&quot;Configure nginx dialog&quot; style=&quot;max-width:450px;&quot; /&gt;
     &lt;span class=&quot;legend&quot;&gt;fig. Configure nginx dialog&lt;/span&gt;
 &lt;/figure&gt;
 
     &lt;p&gt;After choosing yes you will be prompted with the following dialog where you can choose which method you prefer to configure SSL on nginx:&lt;/p&gt;
 
     &lt;figure&gt;
-    &lt;img src=&quot;https://help.passbolt.com/assets/img/help/2020/05/debian-package/nginx_choices_pro.png&quot; alt=&quot;nginx SSL dialog&quot; style=&quot;max-width:450px;&quot; /&gt;
+    &lt;img src=&quot;https://thefirstwind.github.io/assets/img/help/2020/05/debian-package/nginx_choices_pro.png&quot; alt=&quot;nginx SSL dialog&quot; style=&quot;max-width:450px;&quot; /&gt;
     &lt;span class=&quot;legend&quot;&gt;fig. nginx SSL dialog&lt;/span&gt;
 &lt;/figure&gt;
 
     &lt;p&gt;You will now need to introduce the name of the domain name assinged to your server:&lt;/p&gt;
 
     &lt;figure&gt;
-    &lt;img src=&quot;https://help.passbolt.com/assets/img/help/2020/05/debian-package/nginx_domain_pro.png&quot; alt=&quot;nginx domain name&quot; style=&quot;max-width:450px;&quot; /&gt;
+    &lt;img src=&quot;https://thefirstwind.github.io/assets/img/help/2020/05/debian-package/nginx_domain_pro.png&quot; alt=&quot;nginx domain name&quot; style=&quot;max-width:450px;&quot; /&gt;
     &lt;span class=&quot;legend&quot;&gt;fig. nginx domain name&lt;/span&gt;
 &lt;/figure&gt;
 
     &lt;p&gt;Finally you will need to provide an email address for Let’s encrypt to notify you for renewals and other admin info:&lt;/p&gt;
 
     &lt;figure&gt;
-    &lt;img src=&quot;https://help.passbolt.com/assets/img/help/2020/05/debian-package/lets_encrypt_email_pro.png&quot; alt=&quot;lets encrypt admin email&quot; style=&quot;max-width:450px;&quot; /&gt;
+    &lt;img src=&quot;https://thefirstwind.github.io/assets/img/help/2020/05/debian-package/lets_encrypt_email_pro.png&quot; alt=&quot;lets encrypt admin email&quot; style=&quot;max-width:450px;&quot; /&gt;
     &lt;span class=&quot;legend&quot;&gt;fig. lets encrypt admin email&lt;/span&gt;
 &lt;/figure&gt;
 
     &lt;p&gt;If everything goes fine you should see a final message that points you to finish passbolt configuration:&lt;/p&gt;
 
     &lt;figure&gt;
-    &lt;img src=&quot;https://help.passbolt.com/assets/img/help/2020/05/debian-package/success.png&quot; alt=&quot;Success message&quot; style=&quot;max-width:450px;&quot; /&gt;
+    &lt;img src=&quot;https://thefirstwind.github.io/assets/img/help/2020/05/debian-package/success.png&quot; alt=&quot;Success message&quot; style=&quot;max-width:450px;&quot; /&gt;
     &lt;span class=&quot;legend&quot;&gt;fig. Success message&lt;/span&gt;
 &lt;/figure&gt;
 
@@ -186,7 +186,7 @@ September
 
     &lt;p&gt;{ include layout/row_end.html %}&lt;/p&gt;
   &lt;/div&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="configure" /><category term="https" /><category term="pro" /><category term="debian" /><summary type="html"></summary></entry><entry><title type="html">Manual HTTPS configuration on Debian with user provided certificates</title><link href="https://help.passbolt.com/configure/https/pro/debian/manual.html" rel="alternate" type="text/html" title="Manual HTTPS configuration on Debian with user provided certificates" /><published>2020-09-20T02:00:00+02:00</published><updated>2020-09-20T02:00:00+02:00</updated><id>https://help.passbolt.com/configure/https/pro/debian/manual</id><content type="html" xml:base="https://help.passbolt.com/configure/https/pro/debian/manual.html">&lt;div class=&quot;row&quot;&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="configure" /><category term="https" /><category term="pro" /><category term="debian" /><summary type="html"></summary></entry><entry><title type="html">Manual HTTPS configuration on Debian with user provided certificates</title><link href="https://thefirstwind.github.io/configure/https/pro/debian/manual.html" rel="alternate" type="text/html" title="Manual HTTPS configuration on Debian with user provided certificates" /><published>2020-09-20T08:00:00+08:00</published><updated>2020-09-20T08:00:00+08:00</updated><id>https://thefirstwind.github.io/configure/https/pro/debian/manual</id><content type="html" xml:base="https://thefirstwind.github.io/configure/https/pro/debian/manual.html">&lt;div class=&quot;row&quot;&gt;
   &lt;div class=&quot;col7&quot;&gt;
 
     &lt;p&gt;Passbolt debian package currently supports the configuration of nginx. It comes with a default configuration that supports:&lt;/p&gt;
@@ -230,14 +230,14 @@ you want to execute the following command to start the configuration process for
     &lt;p&gt;You should select yes for the nginx setup:&lt;/p&gt;
 
     &lt;figure&gt;
-    &lt;img src=&quot;https://help.passbolt.com/assets/img/help/2020/05/debian-package/db_name_pro.png&quot; alt=&quot;Nginx configuration message&quot; style=&quot;max-width:450px;&quot; /&gt;
+    &lt;img src=&quot;https://thefirstwind.github.io/assets/img/help/2020/05/debian-package/db_name_pro.png&quot; alt=&quot;Nginx configuration message&quot; style=&quot;max-width:450px;&quot; /&gt;
     &lt;span class=&quot;legend&quot;&gt;fig. Nginx configuration message&lt;/span&gt;
 &lt;/figure&gt;
 
     &lt;p&gt;Choose ‘manual’ for the SSL setup method:&lt;/p&gt;
 
     &lt;figure&gt;
-    &lt;img src=&quot;https://help.passbolt.com/assets/img/help/2020/09/debian-package/ssl_method_select_pro.png&quot; alt=&quot;SSL method selection&quot; style=&quot;max-width:450px;&quot; /&gt;
+    &lt;img src=&quot;https://thefirstwind.github.io/assets/img/help/2020/09/debian-package/ssl_method_select_pro.png&quot; alt=&quot;SSL method selection&quot; style=&quot;max-width:450px;&quot; /&gt;
     &lt;span class=&quot;legend&quot;&gt;fig. SSL method selection&lt;/span&gt;
 &lt;/figure&gt;
 
@@ -246,21 +246,21 @@ self-signed certificate the domain name is not as important as if you are planni
 certificate. In the later escenario DNS domain name and SSL domain name must match.&lt;/p&gt;
 
     &lt;figure&gt;
-    &lt;img src=&quot;https://help.passbolt.com/assets/img/help/2020/09/debian-package/ssl_domain_pro.png&quot; alt=&quot;Domain for nginx setup&quot; style=&quot;max-width:450px;&quot; /&gt;
+    &lt;img src=&quot;https://thefirstwind.github.io/assets/img/help/2020/09/debian-package/ssl_domain_pro.png&quot; alt=&quot;Domain for nginx setup&quot; style=&quot;max-width:450px;&quot; /&gt;
     &lt;span class=&quot;legend&quot;&gt;fig. Domain for nginx setup&lt;/span&gt;
 &lt;/figure&gt;
 
     &lt;p&gt;Provide the full path of the SSL certificate you created on previous steps (‘cert.pem’)&lt;/p&gt;
 
     &lt;figure&gt;
-    &lt;img src=&quot;https://help.passbolt.com/assets/img/help/2020/09/debian-package/ssl_cert_pro.png&quot; alt=&quot;SSL certificate path&quot; style=&quot;max-width:450px;&quot; /&gt;
+    &lt;img src=&quot;https://thefirstwind.github.io/assets/img/help/2020/09/debian-package/ssl_cert_pro.png&quot; alt=&quot;SSL certificate path&quot; style=&quot;max-width:450px;&quot; /&gt;
     &lt;span class=&quot;legend&quot;&gt;fig. SSL certificate path&lt;/span&gt;
 &lt;/figure&gt;
 
     &lt;p&gt;Now provide the full path of the SSL key (‘key.pem’)&lt;/p&gt;
 
     &lt;figure&gt;
-    &lt;img src=&quot;https://help.passbolt.com/assets/img/help/2020/09/debian-package/key_ssl_pro.png&quot; alt=&quot;SSL private key path&quot; style=&quot;max-width:450px;&quot; /&gt;
+    &lt;img src=&quot;https://thefirstwind.github.io/assets/img/help/2020/09/debian-package/key_ssl_pro.png&quot; alt=&quot;SSL private key path&quot; style=&quot;max-width:450px;&quot; /&gt;
     &lt;span class=&quot;legend&quot;&gt;fig. SSL private key path&lt;/span&gt;
 &lt;/figure&gt;
 
@@ -268,7 +268,7 @@ certificate. In the later escenario DNS domain name and SSL domain name must mat
 to add DNS records to reach your domain on your local network or in a public DNS provider.&lt;/p&gt;
 
     &lt;figure&gt;
-    &lt;img src=&quot;https://help.passbolt.com/assets/img/help/2020/09/debian-package/success_message.png&quot; alt=&quot;Success message&quot; style=&quot;max-width:450px;&quot; /&gt;
+    &lt;img src=&quot;https://thefirstwind.github.io/assets/img/help/2020/09/debian-package/success_message.png&quot; alt=&quot;Success message&quot; style=&quot;max-width:450px;&quot; /&gt;
     &lt;span class=&quot;legend&quot;&gt;fig. Success message&lt;/span&gt;
 &lt;/figure&gt;
 
@@ -292,7 +292,7 @@ September
 
     &lt;p&gt;{ include layout/row_end.html %}&lt;/p&gt;
   &lt;/div&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="configure" /><category term="https" /><category term="pro" /><category term="debian" /><summary type="html"></summary></entry><entry><title type="html">Manual HTTPS configuration on Debian with user provided certificates</title><link href="https://help.passbolt.com/configure/https/ce/debian/manual.html" rel="alternate" type="text/html" title="Manual HTTPS configuration on Debian with user provided certificates" /><published>2020-09-20T02:00:00+02:00</published><updated>2020-09-20T02:00:00+02:00</updated><id>https://help.passbolt.com/configure/https/ce/debian/manual</id><content type="html" xml:base="https://help.passbolt.com/configure/https/ce/debian/manual.html">&lt;div class=&quot;row&quot;&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="configure" /><category term="https" /><category term="pro" /><category term="debian" /><summary type="html"></summary></entry><entry><title type="html">Manual HTTPS configuration on Debian with user provided certificates</title><link href="https://thefirstwind.github.io/configure/https/ce/debian/manual.html" rel="alternate" type="text/html" title="Manual HTTPS configuration on Debian with user provided certificates" /><published>2020-09-20T08:00:00+08:00</published><updated>2020-09-20T08:00:00+08:00</updated><id>https://thefirstwind.github.io/configure/https/ce/debian/manual</id><content type="html" xml:base="https://thefirstwind.github.io/configure/https/ce/debian/manual.html">&lt;div class=&quot;row&quot;&gt;
   &lt;div class=&quot;col7&quot;&gt;
 
     &lt;p&gt;Passbolt debian package currently supports the configuration of nginx. It comes with a default configuration that supports:&lt;/p&gt;
@@ -336,14 +336,14 @@ you want to execute the following command to start the configuration process for
     &lt;p&gt;You should select yes for the nginx setup:&lt;/p&gt;
 
     &lt;figure&gt;
-    &lt;img src=&quot;https://help.passbolt.com/assets/img/help/2020/09/debian-package/configure_nginx.png&quot; alt=&quot;Nginx configuration message&quot; style=&quot;max-width:450px;&quot; /&gt;
+    &lt;img src=&quot;https://thefirstwind.github.io/assets/img/help/2020/09/debian-package/configure_nginx.png&quot; alt=&quot;Nginx configuration message&quot; style=&quot;max-width:450px;&quot; /&gt;
     &lt;span class=&quot;legend&quot;&gt;fig. Nginx configuration message&lt;/span&gt;
 &lt;/figure&gt;
 
     &lt;p&gt;Choose ‘manual’ for the SSL setup method:&lt;/p&gt;
 
     &lt;figure&gt;
-    &lt;img src=&quot;https://help.passbolt.com/assets/img/help/2020/09/debian-package/ssl_method_select.png&quot; alt=&quot;SSL method selection&quot; style=&quot;max-width:450px;&quot; /&gt;
+    &lt;img src=&quot;https://thefirstwind.github.io/assets/img/help/2020/09/debian-package/ssl_method_select.png&quot; alt=&quot;SSL method selection&quot; style=&quot;max-width:450px;&quot; /&gt;
     &lt;span class=&quot;legend&quot;&gt;fig. SSL method selection&lt;/span&gt;
 &lt;/figure&gt;
 
@@ -352,21 +352,21 @@ self-signed certificate the domain name is not as important as if you are planni
 certificate. In the later escenario DNS domain name and SSL domain name must match.&lt;/p&gt;
 
     &lt;figure&gt;
-    &lt;img src=&quot;https://help.passbolt.com/assets/img/help/2020/09/debian-package/ssl_domain.png&quot; alt=&quot;Domain for nginx setup&quot; style=&quot;max-width:450px;&quot; /&gt;
+    &lt;img src=&quot;https://thefirstwind.github.io/assets/img/help/2020/09/debian-package/ssl_domain.png&quot; alt=&quot;Domain for nginx setup&quot; style=&quot;max-width:450px;&quot; /&gt;
     &lt;span class=&quot;legend&quot;&gt;fig. Domain for nginx setup&lt;/span&gt;
 &lt;/figure&gt;
 
     &lt;p&gt;Provide the full path of the SSL certificate you created on previous steps (‘cert.pem’)&lt;/p&gt;
 
     &lt;figure&gt;
-    &lt;img src=&quot;https://help.passbolt.com/assets/img/help/2020/09/debian-package/ssl_cert.png&quot; alt=&quot;SSL certificate path&quot; style=&quot;max-width:450px;&quot; /&gt;
+    &lt;img src=&quot;https://thefirstwind.github.io/assets/img/help/2020/09/debian-package/ssl_cert.png&quot; alt=&quot;SSL certificate path&quot; style=&quot;max-width:450px;&quot; /&gt;
     &lt;span class=&quot;legend&quot;&gt;fig. SSL certificate path&lt;/span&gt;
 &lt;/figure&gt;
 
     &lt;p&gt;Now provide the full path of the SSL key (‘key.pem’)&lt;/p&gt;
 
     &lt;figure&gt;
-    &lt;img src=&quot;https://help.passbolt.com/assets/img/help/2020/09/debian-package/key_ssl.png&quot; alt=&quot;SSL private key path&quot; style=&quot;max-width:450px;&quot; /&gt;
+    &lt;img src=&quot;https://thefirstwind.github.io/assets/img/help/2020/09/debian-package/key_ssl.png&quot; alt=&quot;SSL private key path&quot; style=&quot;max-width:450px;&quot; /&gt;
     &lt;span class=&quot;legend&quot;&gt;fig. SSL private key path&lt;/span&gt;
 &lt;/figure&gt;
 
@@ -374,7 +374,7 @@ certificate. In the later escenario DNS domain name and SSL domain name must mat
 to add DNS records to reach your domain on your local network or in a public DNS provider.&lt;/p&gt;
 
     &lt;figure&gt;
-    &lt;img src=&quot;https://help.passbolt.com/assets/img/help/2020/09/debian-package/success_message.png&quot; alt=&quot;Success message&quot; style=&quot;max-width:450px;&quot; /&gt;
+    &lt;img src=&quot;https://thefirstwind.github.io/assets/img/help/2020/09/debian-package/success_message.png&quot; alt=&quot;Success message&quot; style=&quot;max-width:450px;&quot; /&gt;
     &lt;span class=&quot;legend&quot;&gt;fig. Success message&lt;/span&gt;
 &lt;/figure&gt;
 
@@ -398,7 +398,7 @@ September
 
     &lt;p&gt;{ include layout/row_end.html %}&lt;/p&gt;
   &lt;/div&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="configure" /><category term="https" /><category term="ce" /><category term="debian" /><summary type="html"></summary></entry><entry><title type="html">Update passbolt on debian systems</title><link href="https://help.passbolt.com/hosting/update/debian-package.html" rel="alternate" type="text/html" title="Update passbolt on debian systems" /><published>2020-09-20T02:00:00+02:00</published><updated>2020-09-20T02:00:00+02:00</updated><id>https://help.passbolt.com/hosting/update/debian_package</id><content type="html" xml:base="https://help.passbolt.com/hosting/update/debian-package.html">&lt;div class=&quot;row&quot;&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="configure" /><category term="https" /><category term="ce" /><category term="debian" /><summary type="html"></summary></entry><entry><title type="html">Update passbolt VM</title><link href="https://thefirstwind.github.io/hosting/update/vm-update.html" rel="alternate" type="text/html" title="Update passbolt VM" /><published>2020-09-20T08:00:00+08:00</published><updated>2020-09-20T08:00:00+08:00</updated><id>https://thefirstwind.github.io/hosting/update/vm_update</id><content type="html" xml:base="https://thefirstwind.github.io/hosting/update/vm-update.html"></content><author><name></name></author><category term="[&quot;hosting&quot;, &quot;update&quot;]" /><summary type="html"></summary></entry><entry><title type="html">Update passbolt on debian systems</title><link href="https://thefirstwind.github.io/hosting/update/debian-package.html" rel="alternate" type="text/html" title="Update passbolt on debian systems" /><published>2020-09-20T08:00:00+08:00</published><updated>2020-09-20T08:00:00+08:00</updated><id>https://thefirstwind.github.io/hosting/update/debian_package</id><content type="html" xml:base="https://thefirstwind.github.io/hosting/update/debian-package.html">&lt;div class=&quot;row&quot;&gt;
   &lt;div class=&quot;col7&quot;&gt;
 
     &lt;h1 id=&quot;updating-passbolt&quot;&gt;Updating passbolt&lt;/h1&gt;
@@ -444,7 +444,7 @@ reflected in model cache files:&lt;/p&gt;
     &lt;p&gt;Optionally, you can login as an administrator and check the status on the healthcheck page:&lt;/p&gt;
 
     &lt;figure&gt;
-    &lt;img src=&quot;https://help.passbolt.com/assets/img/screenshots/AD_healthcheck.jpg&quot; alt=&quot;Example of healthcheck screen&quot; style=&quot;max-width:;&quot; /&gt;
+    &lt;img src=&quot;https://thefirstwind.github.io/assets/img/screenshots/AD_healthcheck.jpg&quot; alt=&quot;Example of healthcheck screen&quot; style=&quot;max-width:;&quot; /&gt;
     &lt;span class=&quot;legend&quot;&gt;fig. Example of healthcheck screen&lt;/span&gt;
 &lt;/figure&gt;
 
@@ -504,7 +504,7 @@ September
 &lt;/div&gt;
 
   &lt;/div&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="[&quot;hosting&quot;, &quot;update&quot;]" /><summary type="html"></summary></entry><entry><title type="html">Update passbolt docker container</title><link href="https://help.passbolt.com/hosting/update/docker.html" rel="alternate" type="text/html" title="Update passbolt docker container" /><published>2020-09-20T02:00:00+02:00</published><updated>2020-09-20T02:00:00+02:00</updated><id>https://help.passbolt.com/hosting/update/docker</id><content type="html" xml:base="https://help.passbolt.com/hosting/update/docker.html">&lt;div class=&quot;row&quot;&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="[&quot;hosting&quot;, &quot;update&quot;]" /><summary type="html"></summary></entry><entry><title type="html">Update passbolt docker container</title><link href="https://thefirstwind.github.io/hosting/update/docker.html" rel="alternate" type="text/html" title="Update passbolt docker container" /><published>2020-09-20T08:00:00+08:00</published><updated>2020-09-20T08:00:00+08:00</updated><id>https://thefirstwind.github.io/hosting/update/docker</id><content type="html" xml:base="https://thefirstwind.github.io/hosting/update/docker.html">&lt;div class=&quot;row&quot;&gt;
   &lt;div class=&quot;col7&quot;&gt;
 
     &lt;p&gt;Every passbolt release comes with a container release. Passbolt containers have a image tag that contains
@@ -550,7 +550,7 @@ September
 &lt;/div&gt;
 
   &lt;/div&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="[&quot;hosting&quot;, &quot;update&quot;]" /><summary type="html"></summary></entry><entry><title type="html">Update passbolt VM</title><link href="https://help.passbolt.com/hosting/update/vm-update.html" rel="alternate" type="text/html" title="Update passbolt VM" /><published>2020-09-20T02:00:00+02:00</published><updated>2020-09-20T02:00:00+02:00</updated><id>https://help.passbolt.com/hosting/update/vm_update</id><content type="html" xml:base="https://help.passbolt.com/hosting/update/vm-update.html"></content><author><name></name></author><category term="[&quot;hosting&quot;, &quot;update&quot;]" /><summary type="html"></summary></entry><entry><title type="html">Update passbolt server component (v2)</title><link href="https://help.passbolt.com/hosting/update/install-scripts.html" rel="alternate" type="text/html" title="Update passbolt server component (v2)" /><published>2020-06-25T02:00:00+02:00</published><updated>2020-06-25T02:00:00+02:00</updated><id>https://help.passbolt.com/hosting/update/install_scripts</id><content type="html" xml:base="https://help.passbolt.com/hosting/update/install-scripts.html">&lt;div class=&quot;row&quot;&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="[&quot;hosting&quot;, &quot;update&quot;]" /><summary type="html"></summary></entry><entry><title type="html">Update passbolt server component (v2)</title><link href="https://thefirstwind.github.io/hosting/update/install-scripts.html" rel="alternate" type="text/html" title="Update passbolt server component (v2)" /><published>2020-06-25T08:00:00+08:00</published><updated>2020-06-25T08:00:00+08:00</updated><id>https://thefirstwind.github.io/hosting/update/install_scripts</id><content type="html" xml:base="https://thefirstwind.github.io/hosting/update/install-scripts.html">&lt;div class=&quot;row&quot;&gt;
   &lt;div class=&quot;col7&quot;&gt;
 
     &lt;h1 id=&quot;pre-requisites&quot;&gt;Pre-requisites&lt;/h1&gt;
@@ -725,7 +725,7 @@ reflected in model cache files:&lt;/p&gt;
     &lt;p&gt;Optionally, you can login as an administrator and check the status on the healthcheck page:&lt;/p&gt;
 
     &lt;figure&gt;
-    &lt;img src=&quot;https://help.passbolt.com/assets/img/screenshots/AD_healthcheck.jpg&quot; alt=&quot;Example of healthcheck screen&quot; style=&quot;max-width:;&quot; /&gt;
+    &lt;img src=&quot;https://thefirstwind.github.io/assets/img/screenshots/AD_healthcheck.jpg&quot; alt=&quot;Example of healthcheck screen&quot; style=&quot;max-width:;&quot; /&gt;
     &lt;span class=&quot;legend&quot;&gt;fig. Example of healthcheck screen&lt;/span&gt;
 &lt;/figure&gt;
 
@@ -785,7 +785,7 @@ June
 &lt;/div&gt;
 
   &lt;/div&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="[&quot;hosting&quot;, &quot;update&quot;]" /><summary type="html"></summary></entry><entry><title type="html">Migrate from install scripts to debian package</title><link href="https://help.passbolt.com/hosting/upgrade/ce/migrate-to-debian.html" rel="alternate" type="text/html" title="Migrate from install scripts to debian package" /><published>2020-06-20T02:00:00+02:00</published><updated>2020-06-20T02:00:00+02:00</updated><id>https://help.passbolt.com/hosting/upgrade/ce/migrate-to-debian</id><content type="html" xml:base="https://help.passbolt.com/hosting/upgrade/ce/migrate-to-debian.html">&lt;div class=&quot;row&quot;&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="[&quot;hosting&quot;, &quot;update&quot;]" /><summary type="html"></summary></entry><entry><title type="html">Migrate from install scripts to debian package</title><link href="https://thefirstwind.github.io/hosting/upgrade/pro/migrate-to-debian.html" rel="alternate" type="text/html" title="Migrate from install scripts to debian package" /><published>2020-06-20T08:00:00+08:00</published><updated>2020-06-20T08:00:00+08:00</updated><id>https://thefirstwind.github.io/hosting/upgrade/pro/migrate-to-debian</id><content type="html" xml:base="https://thefirstwind.github.io/hosting/upgrade/pro/migrate-to-debian.html"></content><author><name></name></author><category term="hosting" /><category term="upgrade" /><category term="pro" /><summary type="html"></summary></entry><entry><title type="html">Migrate from install scripts to debian package</title><link href="https://thefirstwind.github.io/hosting/upgrade/ce/migrate-to-debian.html" rel="alternate" type="text/html" title="Migrate from install scripts to debian package" /><published>2020-06-20T08:00:00+08:00</published><updated>2020-06-20T08:00:00+08:00</updated><id>https://thefirstwind.github.io/hosting/upgrade/ce/migrate-to-debian</id><content type="html" xml:base="https://thefirstwind.github.io/hosting/upgrade/ce/migrate-to-debian.html">&lt;div class=&quot;row&quot;&gt;
   &lt;div class=&quot;col7&quot;&gt;
 
     &lt;h1 id=&quot;backup-your-instance&quot;&gt;1. Backup your instance&lt;/h1&gt;
@@ -886,4 +886,4 @@ you can delete it:&lt;/p&gt;
 &lt;/div&gt;
 
   &lt;/div&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="hosting" /><category term="upgrade" /><category term="ce" /><summary type="html"></summary></entry><entry><title type="html">Migrate from install scripts to debian package</title><link href="https://help.passbolt.com/hosting/upgrade/pro/migrate-to-debian.html" rel="alternate" type="text/html" title="Migrate from install scripts to debian package" /><published>2020-06-20T02:00:00+02:00</published><updated>2020-06-20T02:00:00+02:00</updated><id>https://help.passbolt.com/hosting/upgrade/pro/migrate-to-debian</id><content type="html" xml:base="https://help.passbolt.com/hosting/upgrade/pro/migrate-to-debian.html"></content><author><name></name></author><category term="hosting" /><category term="upgrade" /><category term="pro" /><summary type="html"></summary></entry></feed>
+&lt;/div&gt;</content><author><name></name></author><category term="hosting" /><category term="upgrade" /><category term="ce" /><summary type="html"></summary></entry></feed>

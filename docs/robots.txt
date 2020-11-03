@@ -1,1 +1,1 @@
-Sitemap: https://help.passbolt.com/sitemap.xml
+Sitemap: https://thefirstwind.github.io/sitemap.xml
