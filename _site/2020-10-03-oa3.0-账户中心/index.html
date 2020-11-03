@@ -1,0 +1,1228 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.21.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Oa3.0 账户中心 - kei’s blog</title>
+<meta name="description" content="OA3.0 账户中心设计">
+
+
+  <meta name="author" content="kei gosling">
+  
+  <meta property="article:author" content="kei gosling">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="kei's blog">
+<meta property="og:title" content="Oa3.0 账户中心">
+<meta property="og:url" content="http://localhost:4000/2020-10-03-oa3.0-%E8%B4%A6%E6%88%B7%E4%B8%AD%E5%BF%83/">
+
+
+  <meta property="og:description" content="OA3.0 账户中心设计">
+
+
+
+
+
+
+
+  <meta property="article:published_time" content="2020-10-03T00:00:00+08:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4000/2020-10-03-oa3.0-%E8%B4%A6%E6%88%B7%E4%B8%AD%E5%BF%83/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "kei gosling",
+      "url": "http://localhost:4000/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="kei's blog Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          kei's blog
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/about/">About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/year-archive/">Sample Posts</a>
+            </li><li class="masthead__menu-item">
+              <a href="/collection-archive/">Sample Collections</a>
+            </li><li class="masthead__menu-item">
+              <a href="/sitemap/">Sitemap</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person">
+
+  
+
+  <div class="author__content">
+    
+      <h3 class="author__name" itemprop="name">kei gosling</h3>
+    
+    
+      <div class="author__bio" itemprop="description">
+        <p>I am an <strong>amazing</strong> person.</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">china shanghai</span>
+        </li>
+      
+
+      
+        
+          
+            <li><a href="mailto:thefirstwind@gmail.com" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">Email</span></a></li>
+          
+        
+          
+            <li><a href="https://thefirstwind.github.io/" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-link" aria-hidden="true"></i><span class="label">Website</span></a></li>
+          
+        
+          
+        
+          
+        
+          
+            <li><a href="https://github.com/thefirstwind" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+          
+        
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Oa3.0 账户中心">
+    <meta itemprop="description" content="OA3.0 账户中心设计">
+    <meta itemprop="datePublished" content="2020-10-03T00:00:00+08:00">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">Oa3.0 账户中心
+</h1>
+          
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          1 minute read
+        
+      </span>
+    
+  </p>
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <h1 id="oa30-账户中心设计">OA3.0 账户中心设计</h1>
+
+<blockquote>
+
+  <ul>
+    <li><strong>时间</strong>：2020年11月2日</li>
+    <li><strong>公司</strong>：上海摩易科技发展有限公司</li>
+    <li><strong>作者</strong>：邢晓宁</li>
+    <li><strong>版权声明</strong>：著作权归上海摩易科技发展有限公司所有，未经允许请勿擅自分享给公司外部人员。</li>
+  </ul>
+</blockquote>
+
+<hr />
+
+<p>[TOC]</p>
+
+<h2 id="概要">概要</h2>
+
+<div class="plantuml"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1321px" preserveAspectRatio="none" style="width:623px;height:1321px;" version="1.1" viewBox="0 0 623 1321" width="623px" zoomAndPan="magnify"><defs><filter height="300%" id="f1ar4rdsewrgki" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FEFECE" filter="url(#f1ar4rdsewrgki)" height="36.4883" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="76" x="10" y="641.3711"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="56" x="20" y="664.9063">账户中心</text><rect fill="#FEFECE" filter="url(#f1ar4rdsewrgki)" height="36.4883" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="76" x="136" y="76.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="56" x="146" y="100.0234">账户金额</text><rect fill="#FEFECE" filter="url(#f1ar4rdsewrgki)" height="36.4883" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="48" x="262" y="20"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="28" x="272" y="43.5352">总额</text><path d="M212,94.7324 L222,94.7324 C237,94.7324 237,38.2441 252,38.2441 L262,38.2441 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/><rect fill="#FEFECE" filter="url(#f1ar4rdsewrgki)" height="36.4883" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="76" x="262" y="76.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="56" x="272" y="100.0234">可提现额</text><path d="M212,94.7324 L222,94.7324 C237,94.7324 237,94.7324 252,94.7324 L262,94.7324 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/><rect fill="#FEFECE" filter="url(#f1ar4rdsewrgki)" height="36.4883" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="62" x="262" y="132.9766"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="42" x="272" y="156.5117">冻结额</text><path d="M212,94.7324 L222,94.7324 C237,94.7324 237,151.2207 252,151.2207 L262,151.2207 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M86,659.6152 L96,659.6152 C111,659.6152 111,94.7324 126,94.7324 L136,94.7324 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/><rect fill="#FEFECE" filter="url(#f1ar4rdsewrgki)" height="36.4883" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="132" x="136" y="471.9063"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="112" x="146" y="495.4414">账户额度变化快照</text><rect fill="#FEFECE" filter="url(#f1ar4rdsewrgki)" height="36.4883" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="48" x="318" y="302.4414"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="28" x="328" y="325.9766">角色</text><rect fill="#FEFECE" filter="url(#f1ar4rdsewrgki)" height="36.4883" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="48" x="416" y="189.4648"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="28" x="426" y="213">用户</text><path d="M366,320.6855 L376,320.6855 C391,320.6855 391,207.709 406,207.709 L416,207.709 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/><rect fill="#FEFECE" filter="url(#f1ar4rdsewrgki)" height="36.4883" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="48" x="416" y="245.9531"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="28" x="426" y="269.4883">护工</text><path d="M366,320.6855 L376,320.6855 C391,320.6855 391,264.1973 406,264.1973 L416,264.1973 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/><rect fill="#FEFECE" filter="url(#f1ar4rdsewrgki)" height="36.4883" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="48" x="416" y="302.4414"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="28" x="426" y="325.9766">护士</text><path d="M366,320.6855 L376,320.6855 C391,320.6855 391,320.6855 406,320.6855 L416,320.6855 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/><rect fill="#FEFECE" filter="url(#f1ar4rdsewrgki)" height="36.4883" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="48" x="416" y="358.9297"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="28" x="426" y="382.4648">商家</text><path d="M366,320.6855 L376,320.6855 C391,320.6855 391,377.1738 406,377.1738 L416,377.1738 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/><rect fill="#FEFECE" filter="url(#f1ar4rdsewrgki)" height="36.4883" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="48" x="416" y="415.418"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="28" x="426" y="438.9531">平台</text><path d="M366,320.6855 L376,320.6855 C391,320.6855 391,433.6621 406,433.6621 L416,433.6621 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M268,490.1504 L278,490.1504 C293,490.1504 293,320.6855 308,320.6855 L318,320.6855 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/><rect fill="#FEFECE" filter="url(#f1ar4rdsewrgki)" height="36.4883" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="48" x="318" y="613.127"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="28" x="328" y="636.6621">类型</text><rect fill="#FEFECE" filter="url(#f1ar4rdsewrgki)" height="36.4883" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="48" x="416" y="528.3945"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="28" x="426" y="551.9297">收入</text><rect fill="#FEFECE" filter="url(#f1ar4rdsewrgki)" height="36.4883" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="90" x="514" y="471.9063"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="70" x="524" y="495.4414">变化前额度</text><path d="M464,546.6387 L474,546.6387 C489,546.6387 489,490.1504 504,490.1504 L514,490.1504 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/><rect fill="#FEFECE" filter="url(#f1ar4rdsewrgki)" height="36.4883" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="90" x="514" y="528.3945"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="70" x="524" y="551.9297">变化后额度</text><path d="M464,546.6387 L474,546.6387 C489,546.6387 489,546.6387 504,546.6387 L514,546.6387 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/><rect fill="#FEFECE" filter="url(#f1ar4rdsewrgki)" height="36.4883" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="76" x="514" y="584.8828"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="56" x="524" y="608.418">快照时间</text><path d="M464,546.6387 L474,546.6387 C489,546.6387 489,603.127 504,603.127 L514,603.127 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M366,631.3711 L376,631.3711 C391,631.3711 391,546.6387 406,546.6387 L416,546.6387 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/><rect fill="#FEFECE" filter="url(#f1ar4rdsewrgki)" height="36.4883" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="48" x="416" y="697.8594"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="28" x="426" y="721.3945">支出</text><rect fill="#FEFECE" filter="url(#f1ar4rdsewrgki)" height="36.4883" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="90" x="514" y="641.3711"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="70" x="524" y="664.9063">变化前额度</text><path d="M464,716.1035 L474,716.1035 C489,716.1035 489,659.6152 504,659.6152 L514,659.6152 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/><rect fill="#FEFECE" filter="url(#f1ar4rdsewrgki)" height="36.4883" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="90" x="514" y="697.8594"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="70" x="524" y="721.3945">变化后额度</text><path d="M464,716.1035 L474,716.1035 C489,716.1035 489,716.1035 504,716.1035 L514,716.1035 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/><rect fill="#FEFECE" filter="url(#f1ar4rdsewrgki)" height="36.4883" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="76" x="514" y="754.3477"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="56" x="524" y="777.8828">快照时间</text><path d="M464,716.1035 L474,716.1035 C489,716.1035 489,772.5918 504,772.5918 L514,772.5918 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M366,631.3711 L376,631.3711 C391,631.3711 391,716.1035 406,716.1035 L416,716.1035 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M268,490.1504 L278,490.1504 C293,490.1504 293,631.3711 308,631.3711 L318,631.3711 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M86,659.6152 L96,659.6152 C111,659.6152 111,490.1504 126,490.1504 L136,490.1504 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/><rect fill="#FEFECE" filter="url(#f1ar4rdsewrgki)" height="36.4883" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="76" x="136" y="923.8125"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="56" x="146" y="947.3477">明细流水</text><rect fill="#FEFECE" filter="url(#f1ar4rdsewrgki)" height="36.4883" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="48" x="262" y="867.3242"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="28" x="272" y="890.8594">收入</text><rect fill="#FEFECE" filter="url(#f1ar4rdsewrgki)" height="36.4883" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="76" x="360" y="810.8359"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="56" x="370" y="834.3711">入账金额</text><path d="M310,885.5684 L320,885.5684 C335,885.5684 335,829.0801 350,829.0801 L360,829.0801 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/><rect fill="#FEFECE" filter="url(#f1ar4rdsewrgki)" height="36.4883" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="76" x="360" y="867.3242"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="56" x="370" y="890.8594">入账时间</text><path d="M310,885.5684 L320,885.5684 C335,885.5684 335,885.5684 350,885.5684 L360,885.5684 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/><rect fill="#FEFECE" filter="url(#f1ar4rdsewrgki)" height="36.4883" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="76" x="360" y="923.8125"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="56" x="370" y="947.3477">关联订单</text><path d="M310,885.5684 L320,885.5684 C335,885.5684 335,942.0566 350,942.0566 L360,942.0566 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M212,942.0566 L222,942.0566 C237,942.0566 237,885.5684 252,885.5684 L262,885.5684 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/><rect fill="#FEFECE" filter="url(#f1ar4rdsewrgki)" height="36.4883" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="48" x="262" y="1008.5449"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="28" x="272" y="1032.0801">支出</text><rect fill="#FEFECE" filter="url(#f1ar4rdsewrgki)" height="36.4883" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="76" x="360" y="980.3008"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="56" x="370" y="1003.8359">支出金额</text><path d="M310,1026.7891 L320,1026.7891 C335,1026.7891 335,998.5449 350,998.5449 L360,998.5449 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/><rect fill="#FEFECE" filter="url(#f1ar4rdsewrgki)" height="36.4883" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="76" x="360" y="1036.7891"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="56" x="370" y="1060.3242">支出时间</text><path d="M310,1026.7891 L320,1026.7891 C335,1026.7891 335,1055.0332 350,1055.0332 L360,1055.0332 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M212,942.0566 L222,942.0566 C237,942.0566 237,1026.7891 252,1026.7891 L262,1026.7891 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M86,659.6152 L96,659.6152 C111,659.6152 111,942.0566 126,942.0566 L136,942.0566 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/><rect fill="#FEFECE" filter="url(#f1ar4rdsewrgki)" height="36.4883" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="48" x="136" y="1121.5215"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="28" x="146" y="1145.0566">账单</text><rect fill="#FEFECE" filter="url(#f1ar4rdsewrgki)" height="36.4883" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="62" x="234" y="1093.2773"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="42" x="244" y="1116.8125">日账单</text><path d="M184,1139.7656 L194,1139.7656 C209,1139.7656 209,1111.5215 224,1111.5215 L234,1111.5215 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/><rect fill="#FEFECE" filter="url(#f1ar4rdsewrgki)" height="36.4883" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="62" x="234" y="1149.7656"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="42" x="244" y="1173.3008">月账单</text><path d="M184,1139.7656 L194,1139.7656 C209,1139.7656 209,1168.0098 224,1168.0098 L234,1168.0098 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M86,659.6152 L96,659.6152 C111,659.6152 111,1139.7656 126,1139.7656 L136,1139.7656 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/><rect fill="#FEFECE" filter="url(#f1ar4rdsewrgki)" height="36.4883" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="48" x="136" y="1234.498"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="28" x="146" y="1258.0332">动作</text><rect fill="#FEFECE" filter="url(#f1ar4rdsewrgki)" height="36.4883" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="48" x="234" y="1206.2539"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="28" x="244" y="1229.7891">提现</text><path d="M184,1252.7422 L194,1252.7422 C209,1252.7422 209,1224.498 224,1224.498 L234,1224.498 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/><rect fill="#FEFECE" filter="url(#f1ar4rdsewrgki)" height="36.4883" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="48" x="234" y="1262.7422"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="28" x="244" y="1286.2773">充值</text><path d="M184,1252.7422 L194,1252.7422 C209,1252.7422 209,1280.9863 224,1280.9863 L234,1280.9863 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M86,659.6152 L96,659.6152 C111,659.6152 111,1252.7422 126,1252.7422 L136,1252.7422 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[03e70f226b0754e779cb3dfb601706d1]
+@startmindmap
+
+* 账户中心
+** 账户金额
+*** 总额
+*** 可提现额
+*** 冻结额
+** 账户额度变化快照
+*** 角色
+**** 用户
+**** 护工
+**** 护士
+**** 商家
+**** 平台
+*** 类型
+**** 收入
+***** 变化前额度
+***** 变化后额度
+***** 快照时间
+**** 支出
+***** 变化前额度
+***** 变化后额度
+***** 快照时间
+** 明细流水
+*** 收入
+**** 入账金额
+**** 入账时间
+**** 关联订单
+*** 支出
+**** 支出金额
+**** 支出时间
+** 账单
+*** 日账单
+*** 月账单
+** 动作
+*** 提现
+*** 充值
+
+@endmindmap
+
+PlantUML version 1.2020.18(Thu Oct 01 03:40:44 CST 2020)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: CN
+--></g></svg></div>
+<h2 id="用户相关的账户操作">用户相关的账户操作</h2>
+<div class="plantuml"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1066px" preserveAspectRatio="none" style="width:606px;height:1066px;" version="1.1" viewBox="0 0 606 1066" width="606px" zoomAndPan="magnify"><defs><filter height="300%" id="fn8blmq9gyplj" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="28" x2="28" y1="40.4883" y2="1022.8047"/><line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="130" x2="130" y1="40.4883" y2="1022.8047"/><line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="243" x2="243" y1="40.4883" y2="1022.8047"/><line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="340" x2="340" y1="40.4883" y2="1022.8047"/><line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="471" x2="471" y1="40.4883" y2="1022.8047"/><line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="557" x2="557" y1="40.4883" y2="1022.8047"/><rect fill="#FEFECE" filter="url(#fn8blmq9gyplj)" height="30.4883" style="stroke: #A80036; stroke-width: 1.5;" width="42" x="5" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="28" x="12" y="25.5352">用户</text><rect fill="#FEFECE" filter="url(#fn8blmq9gyplj)" height="30.4883" style="stroke: #A80036; stroke-width: 1.5;" width="42" x="5" y="1021.8047"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="28" x="12" y="1042.3398">用户</text><rect fill="#FEFECE" filter="url(#fn8blmq9gyplj)" height="30.4883" style="stroke: #A80036; stroke-width: 1.5;" width="42" x="107" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="28" x="114" y="25.5352">充值</text><rect fill="#FEFECE" filter="url(#fn8blmq9gyplj)" height="30.4883" style="stroke: #A80036; stroke-width: 1.5;" width="42" x="107" y="1021.8047"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="28" x="114" y="1042.3398">充值</text><rect fill="#FEFECE" filter="url(#fn8blmq9gyplj)" height="30.4883" style="stroke: #A80036; stroke-width: 1.5;" width="70" x="206" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="56" x="213" y="25.5352">账户入账</text><rect fill="#FEFECE" filter="url(#fn8blmq9gyplj)" height="30.4883" style="stroke: #A80036; stroke-width: 1.5;" width="70" x="206" y="1021.8047"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="56" x="213" y="1042.3398">账户入账</text><rect fill="#FEFECE" filter="url(#fn8blmq9gyplj)" height="30.4883" style="stroke: #A80036; stroke-width: 1.5;" width="70" x="303" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="56" x="310" y="25.5352">账户余额</text><rect fill="#FEFECE" filter="url(#fn8blmq9gyplj)" height="30.4883" style="stroke: #A80036; stroke-width: 1.5;" width="70" x="303" y="1021.8047"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="56" x="310" y="1042.3398">账户余额</text><rect fill="#FEFECE" filter="url(#fn8blmq9gyplj)" height="30.4883" style="stroke: #A80036; stroke-width: 1.5;" width="70" x="434" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="56" x="441" y="25.5352">账户出账</text><rect fill="#FEFECE" filter="url(#fn8blmq9gyplj)" height="30.4883" style="stroke: #A80036; stroke-width: 1.5;" width="70" x="434" y="1021.8047"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="56" x="441" y="1042.3398">账户出账</text><rect fill="#FEFECE" filter="url(#fn8blmq9gyplj)" height="30.4883" style="stroke: #A80036; stroke-width: 1.5;" width="70" x="520" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="56" x="527" y="25.5352">企业支付</text><rect fill="#FEFECE" filter="url(#fn8blmq9gyplj)" height="30.4883" style="stroke: #A80036; stroke-width: 1.5;" width="70" x="520" y="1021.8047"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="56" x="527" y="1042.3398">企业支付</text><rect fill="#EEEEEE" filter="url(#fn8blmq9gyplj)" height="3" style="stroke: #EEEEEE; stroke-width: 1.0;" width="599" x="0" y="71.1436"/><line style="stroke: #000000; stroke-width: 1.0;" x1="0" x2="599" y1="71.1436" y2="71.1436"/><line style="stroke: #000000; stroke-width: 1.0;" x1="0" x2="599" y1="74.1436" y2="74.1436"/><rect fill="#EEEEEE" filter="url(#fn8blmq9gyplj)" height="23.3105" style="stroke: #000000; stroke-width: 2.0;" width="44" x="277.5" y="60.4883"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="26" x="283.5" y="77.0566">充值</text><polygon fill="#A80036" points="118,111.1094,128,115.1094,118,119.1094,122,115.1094" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="28" x2="124" y1="115.1094" y2="115.1094"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="78" x="35" y="110.3672">调用充值接口</text><polygon fill="#A80036" points="231,140.4199,241,144.4199,231,148.4199,235,144.4199" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="130" x2="237" y1="144.4199" y2="144.4199"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="89" x="137" y="139.6777">申请入账100元</text><polygon fill="#A80036" points="328,169.7305,338,173.7305,328,177.7305,332,173.7305" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="243" x2="334" y1="173.7305" y2="173.7305"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="73" x="250" y="168.9883">余额+100元</text><polygon fill="#A80036" points="39,199.041,29,203.041,39,207.041,35,203.041" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="33" x2="339" y1="203.041" y2="203.041"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="52" x="45" y="198.2988">返回余额</text><rect fill="#EEEEEE" filter="url(#fn8blmq9gyplj)" height="3" style="stroke: #EEEEEE; stroke-width: 1.0;" width="599" x="0" y="231.6963"/><line style="stroke: #000000; stroke-width: 1.0;" x1="0" x2="599" y1="231.6963" y2="231.6963"/><line style="stroke: #000000; stroke-width: 1.0;" x1="0" x2="599" y1="234.6963" y2="234.6963"/><rect fill="#EEEEEE" filter="url(#fn8blmq9gyplj)" height="23.3105" style="stroke: #000000; stroke-width: 2.0;" width="70" x="264.5" y="221.041"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="52" x="270.5" y="237.6094">账户支付</text><polygon fill="#A80036" points="328,271.6621,338,275.6621,328,279.6621,332,275.6621" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="28" x2="334" y1="275.6621" y2="275.6621"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="117" x="35" y="270.9199">校验余额 &gt;= 100元</text><polygon fill="#A80036" points="459,300.9727,469,304.9727,459,308.9727,463,304.9727" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="340" x2="465" y1="304.9727" y2="304.9727"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="89" x="347" y="300.2305">申请出账100元</text><polygon fill="#A80036" points="351,330.2832,341,334.2832,351,338.2832,347,334.2832" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="345" x2="470" y1="334.2832" y2="334.2832"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="71" x="357" y="329.541">余额-100元</text><polygon fill="#A80036" points="39,359.5938,29,363.5938,39,367.5938,35,363.5938" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="33" x2="339" y1="363.5938" y2="363.5938"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="78" x="45" y="358.8516">余额支付成功</text><rect fill="#EEEEEE" filter="url(#fn8blmq9gyplj)" height="3" style="stroke: #EEEEEE; stroke-width: 1.0;" width="599" x="0" y="392.249"/><line style="stroke: #000000; stroke-width: 1.0;" x1="0" x2="599" y1="392.249" y2="392.249"/><line style="stroke: #000000; stroke-width: 1.0;" x1="0" x2="599" y1="395.249" y2="395.249"/><rect fill="#EEEEEE" filter="url(#fn8blmq9gyplj)" height="23.3105" style="stroke: #000000; stroke-width: 2.0;" width="176" x="211.5" y="381.5938"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="158" x="217.5" y="398.1621">订单支付(充值 + 账户支付)</text><polygon fill="#A80036" points="118,432.2148,128,436.2148,118,440.2148,122,436.2148" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="28" x2="124" y1="436.2148" y2="436.2148"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="78" x="35" y="431.4727">调用支付接口</text><polygon fill="#A80036" points="231,461.5254,241,465.5254,231,469.5254,235,465.5254" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="130" x2="237" y1="465.5254" y2="465.5254"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="89" x="137" y="460.7832">申请入账100元</text><polygon fill="#A80036" points="328,490.8359,338,494.8359,328,498.8359,332,494.8359" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="243" x2="334" y1="494.8359" y2="494.8359"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="73" x="250" y="490.0938">余额+100元</text><line style="stroke: #A80036; stroke-width: 1.0;" x1="340" x2="382" y1="524.1465" y2="524.1465"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="382" x2="382" y1="524.1465" y2="537.1465"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="341" x2="382" y1="537.1465" y2="537.1465"/><polygon fill="#A80036" points="351,533.1465,341,537.1465,351,541.1465,347,537.1465" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="117" x="347" y="519.4043">校验余额 &gt;= 100元</text><polygon fill="#A80036" points="459,562.457,469,566.457,459,570.457,463,566.457" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="340" x2="465" y1="566.457" y2="566.457"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="89" x="347" y="561.7148">申请出账100元</text><polygon fill="#A80036" points="351,591.7676,341,595.7676,351,599.7676,347,595.7676" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="345" x2="470" y1="595.7676" y2="595.7676"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="71" x="357" y="591.0254">余额-100元</text><polygon fill="#A80036" points="39,621.0781,29,625.0781,39,629.0781,35,625.0781" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="33" x2="339" y1="625.0781" y2="625.0781"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="78" x="45" y="620.3359">余额支付成功</text><rect fill="#EEEEEE" filter="url(#fn8blmq9gyplj)" height="3" style="stroke: #EEEEEE; stroke-width: 1.0;" width="599" x="0" y="653.7334"/><line style="stroke: #000000; stroke-width: 1.0;" x1="0" x2="599" y1="653.7334" y2="653.7334"/><line style="stroke: #000000; stroke-width: 1.0;" x1="0" x2="599" y1="656.7334" y2="656.7334"/><rect fill="#EEEEEE" filter="url(#fn8blmq9gyplj)" height="23.3105" style="stroke: #000000; stroke-width: 2.0;" width="70" x="264.5" y="643.0781"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="52" x="270.5" y="659.6465">账户退款</text><polygon fill="#A80036" points="328,693.6992,338,697.6992,328,701.6992,332,697.6992" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="28" x2="334" y1="697.6992" y2="697.6992"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="273" x="35" y="692.957">用户或系统发起退款申请、校验余额 &gt;= 100元</text><polygon fill="#A80036" points="545,723.0098,555,727.0098,545,731.0098,549,727.0098" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="340" x2="551" y1="727.0098" y2="727.0098"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="193" x="347" y="722.2676">申请企业支付，退款100元给用户</text><polygon fill="#A80036" points="482,752.3203,472,756.3203,482,760.3203,478,756.3203" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="476" x2="556" y1="756.3203" y2="756.3203"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="52" x="488" y="751.5781">支付成功</text><polygon fill="#A80036" points="351,781.6309,341,785.6309,351,789.6309,347,785.6309" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="345" x2="470" y1="785.6309" y2="785.6309"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="45" x="357" y="780.8887">-100元</text><polygon fill="#A80036" points="39,810.9414,29,814.9414,39,818.9414,35,814.9414" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="33" x2="339" y1="814.9414" y2="814.9414"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="104" x="45" y="810.1992">通知用户退款成功</text><rect fill="#EEEEEE" filter="url(#fn8blmq9gyplj)" height="3" style="stroke: #EEEEEE; stroke-width: 1.0;" width="599" x="0" y="843.5967"/><line style="stroke: #000000; stroke-width: 1.0;" x1="0" x2="599" y1="843.5967" y2="843.5967"/><line style="stroke: #000000; stroke-width: 1.0;" x1="0" x2="599" y1="846.5967" y2="846.5967"/><rect fill="#EEEEEE" filter="url(#fn8blmq9gyplj)" height="23.3105" style="stroke: #000000; stroke-width: 2.0;" width="119" x="240" y="832.9414"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="101" x="246" y="849.5098">提现(同账户退款)</text><polygon fill="#A80036" points="328,883.5625,338,887.5625,328,891.5625,332,887.5625" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="28" x2="334" y1="887.5625" y2="887.5625"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="234" x="35" y="882.8203">用户发起提现申请、校验余额 &gt;= 100元</text><polygon fill="#A80036" points="545,912.873,555,916.873,545,920.873,549,916.873" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="340" x2="551" y1="916.873" y2="916.873"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="193" x="347" y="912.1309">申请企业支付，提现100元给用户</text><polygon fill="#A80036" points="482,942.1836,472,946.1836,482,950.1836,478,946.1836" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="476" x2="556" y1="946.1836" y2="946.1836"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="52" x="488" y="941.4414">支付成功</text><polygon fill="#A80036" points="351,971.4941,341,975.4941,351,979.4941,347,975.4941" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="345" x2="470" y1="975.4941" y2="975.4941"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="45" x="357" y="970.752">-100元</text><polygon fill="#A80036" points="39,1000.8047,29,1004.8047,39,1008.8047,35,1004.8047" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="33" x2="339" y1="1004.8047" y2="1004.8047"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="104" x="45" y="1000.0625">通知用户提现成功</text><!--MD5=[4bbe57803fbc17712babd9439e9e2e6f]
+@startuml 
+
+== 充值 ==
+用户 -> 充值 : 调用充值接口
+充值 -> 账户入账 : 申请入账100元
+账户入账 -> 账户余额 : 余额+100元
+账户余额 -> 用户: 返回余额
+== 账户支付 ==
+用户 -> 账户余额: 校验余额 >= 100元
+账户余额 -> 账户出账: 申请出账100元
+账户出账 -> 账户余额: 余额-100元
+账户余额 -> 用户: 余额支付成功
+== 订单支付(充值 + 账户支付) ==
+用户 -> 充值 : 调用支付接口
+充值 -> 账户入账 : 申请入账100元
+账户入账 -> 账户余额 : 余额+100元
+账户余额 -> 账户余额: 校验余额 >= 100元
+账户余额 -> 账户出账: 申请出账100元
+账户出账 -> 账户余额: 余额-100元
+账户余额 -> 用户: 余额支付成功
+== 账户退款 ==
+用户 -> 账户余额: 用户或系统发起退款申请、校验余额 >= 100元
+账户余额 -> 企业支付: 申请企业支付，退款100元给用户
+企业支付 -> 账户出账: 支付成功
+账户出账 -> 账户余额: -100元
+账户余额 -> 用户: 通知用户退款成功
+== 提现(同账户退款) ==
+用户 -> 账户余额: 用户发起提现申请、校验余额 >= 100元
+账户余额 -> 企业支付: 申请企业支付，提现100元给用户
+企业支付 -> 账户出账: 支付成功
+账户出账 -> 账户余额: -100元
+账户余额 -> 用户: 通知用户提现成功
+@enduml
+
+PlantUML version 1.2020.18(Thu Oct 01 03:40:44 CST 2020)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: CN
+--></g></svg></div>
+<h2 id="数据字典">数据字典</h2>
+
+<h3 id="系统角色">系统角色</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">端</th>
+      <th style="text-align: left">用户群体</th>
+      <th style="text-align: center">终端类型</th>
+      <th style="text-align: left">终端名称</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">用户端</td>
+      <td style="text-align: left">患者、消费者</td>
+      <td style="text-align: center">微信公众号</td>
+      <td style="text-align: left">E护通</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">护工端</td>
+      <td style="text-align: left">院内护工、居家护工</td>
+      <td style="text-align: center">微信公众号</td>
+      <td style="text-align: left">E护通|护工</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">护士端</td>
+      <td style="text-align: left">提供上门服务的在册护士</td>
+      <td style="text-align: center">微信公众号/APP</td>
+      <td style="text-align: left">护通|专护</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">POS机端</td>
+      <td style="text-align: left">擎浩医院管理老师</td>
+      <td style="text-align: center">POS机</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">PC端</td>
+      <td style="text-align: left">财务、运营、系统管理员等</td>
+      <td style="text-align: center">PC电脑端</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">统计端</td>
+      <td style="text-align: left">院方高层、护理界高层</td>
+      <td style="text-align: center">微信公众号</td>
+      <td style="text-align: left">擎浩护理</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="院内订单类型">院内订单类型</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">订单类型</th>
+      <th style="text-align: left">前提条件</th>
+      <th style="text-align: center">工资计算说明</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">1对1订单</td>
+      <td style="text-align: left">院内有机动护工</td>
+      <td style="text-align: center">系统计算、每日按照比例分配</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">1对多订单</td>
+      <td style="text-align: left">当前病区绑定了护工</td>
+      <td style="text-align: center">系统计算、每日按照比例分配</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">团队制订单</td>
+      <td style="text-align: left">当前病区支持团队制</td>
+      <td style="text-align: center">不统计报表</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">单项订单</td>
+      <td style="text-align: left">擎浩医院管理老师</td>
+      <td style="text-align: center">待定</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="下单相关流程">下单相关流程</h2>
+<h3 id="用户下单时序图">用户下单(时序图):</h3>
+
+<div class="plantuml"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="641px" preserveAspectRatio="none" style="width:598px;height:641px;" version="1.1" viewBox="0 0 598 641" width="598px" zoomAndPan="magnify"><defs><filter height="300%" id="f1chjn0nnjwm9c" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="35" x2="35" y1="40.4883" y2="597.7676"/><line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="139.5" x2="139.5" y1="40.4883" y2="597.7676"/><line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="375" x2="375" y1="40.4883" y2="597.7676"/><line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="493" x2="493" y1="40.4883" y2="597.7676"/><line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="558" x2="558" y1="40.4883" y2="597.7676"/><rect fill="#FEFECE" filter="url(#f1chjn0nnjwm9c)" height="30.4883" style="stroke: #A80036; stroke-width: 1.5;" width="56" x="5" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="42" x="12" y="25.5352">用户端</text><rect fill="#FEFECE" filter="url(#f1chjn0nnjwm9c)" height="30.4883" style="stroke: #A80036; stroke-width: 1.5;" width="56" x="5" y="596.7676"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="42" x="12" y="617.3027">用户端</text><rect fill="#FEFECE" filter="url(#f1chjn0nnjwm9c)" height="30.4883" style="stroke: #A80036; stroke-width: 1.5;" width="55" x="110.5" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="41" x="117.5" y="25.5352">POS机</text><rect fill="#FEFECE" filter="url(#f1chjn0nnjwm9c)" height="30.4883" style="stroke: #A80036; stroke-width: 1.5;" width="55" x="110.5" y="596.7676"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="41" x="117.5" y="617.3027">POS机</text><rect fill="#FEFECE" filter="url(#f1chjn0nnjwm9c)" height="30.4883" style="stroke: #A80036; stroke-width: 1.5;" width="42" x="352" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="28" x="359" y="25.5352">系统</text><rect fill="#FEFECE" filter="url(#f1chjn0nnjwm9c)" height="30.4883" style="stroke: #A80036; stroke-width: 1.5;" width="42" x="352" y="596.7676"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="28" x="359" y="617.3027">系统</text><rect fill="#FEFECE" filter="url(#f1chjn0nnjwm9c)" height="30.4883" style="stroke: #A80036; stroke-width: 1.5;" width="46" x="468" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="32" x="475" y="25.5352">PC端</text><rect fill="#FEFECE" filter="url(#f1chjn0nnjwm9c)" height="30.4883" style="stroke: #A80036; stroke-width: 1.5;" width="46" x="468" y="596.7676"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="32" x="475" y="617.3027">PC端</text><rect fill="#FEFECE" filter="url(#f1chjn0nnjwm9c)" height="30.4883" style="stroke: #A80036; stroke-width: 1.5;" width="56" x="528" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="42" x="535" y="25.5352">护工端</text><rect fill="#FEFECE" filter="url(#f1chjn0nnjwm9c)" height="30.4883" style="stroke: #A80036; stroke-width: 1.5;" width="56" x="528" y="596.7676"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="42" x="535" y="617.3027">护工端</text><polygon fill="#A80036" points="128,67.7988,138,71.7988,128,75.7988,132,71.7988" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="35" x2="134" y1="71.7988" y2="71.7988"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="26" x="42" y="67.0566">下单</text><polygon fill="#A80036" points="128,97.1094,138,101.1094,128,105.1094,132,101.1094" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="35" x2="134" y1="101.1094" y2="101.1094"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="81" x="42" y="96.3672">[￥支付 微信 ]</text><polygon fill="#A80036" points="363,126.4199,373,130.4199,363,134.4199,367,130.4199" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" x1="35" x2="369" y1="130.4199" y2="130.4199"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="52" x="42" y="125.6777">更新数据</text><polygon fill="#A80036" points="151,155.7305,141,159.7305,151,163.7305,147,159.7305" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" x1="145" x2="374" y1="159.7305" y2="159.7305"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="52" x="157" y="154.9883">推送消息</text><polygon fill="#A80036" points="363,185.041,373,189.041,363,193.041,367,189.041" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="140" x2="369" y1="189.041" y2="189.041"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="117" x="147" y="184.2988">评估、补录患者信息</text><polygon fill="#A80036" points="363,214.3516,373,218.3516,363,222.3516,367,218.3516" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="140" x2="369" y1="218.3516" y2="218.3516"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="211" x="147" y="213.6094">[￥收款：微信/支付宝/银行卡/现金]</text><polygon fill="#A80036" points="46,243.6621,36,247.6621,46,251.6621,42,247.6621" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" x1="40" x2="374" y1="247.6621" y2="247.6621"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="78" x="52" y="242.9199">查看订单信息</text><polygon fill="#A80036" points="481,272.9727,491,276.9727,481,280.9727,485,276.9727" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="375" x2="487" y1="276.9727" y2="276.9727"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="78" x="382" y="272.2305">查看订单信息</text><polygon fill="#A80036" points="546,302.2832,556,306.2832,546,310.2832,550,306.2832" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="375" x2="552" y1="306.2832" y2="306.2832"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="78" x="382" y="301.541">查看订单信息</text><line style="stroke: #A80036; stroke-width: 1.0;" x1="375" x2="417" y1="335.5938" y2="335.5938"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="417" x2="417" y1="335.5938" y2="348.5938"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="376" x2="417" y1="348.5938" y2="348.5938"/><polygon fill="#A80036" points="386,344.5938,376,348.5938,386,352.5938,382,348.5938" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="104" x="382" y="330.8516">服务开始时间判断</text><line style="stroke: #A80036; stroke-width: 1.0;" x1="375" x2="417" y1="377.9043" y2="377.9043"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="417" x2="417" y1="377.9043" y2="390.9043"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="376" x2="417" y1="390.9043" y2="390.9043"/><polygon fill="#A80036" points="386,386.9043,376,390.9043,386,394.9043,382,390.9043" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="39" x="382" y="373.1621">服务中</text><polygon fill="#A80036" points="46,416.2148,36,420.2148,46,424.2148,42,420.2148" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" x1="40" x2="557" y1="420.2148" y2="420.2148"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="78" x="52" y="415.4727">推送服务日志</text><line style="stroke: #A80036; stroke-width: 1.0;" x1="375" x2="417" y1="449.5254" y2="449.5254"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="417" x2="417" y1="449.5254" y2="462.5254"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="376" x2="417" y1="462.5254" y2="462.5254"/><polygon fill="#A80036" points="386,458.5254,376,462.5254,386,466.5254,382,462.5254" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="104" x="382" y="444.7832">服务结束时间判断</text><polygon fill="#A80036" points="546,487.8359,556,491.8359,546,495.8359,550,491.8359" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" x1="35" x2="552" y1="491.8359" y2="491.8359"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="52" x="42" y="487.0938">订单结算</text><polygon fill="#A80036" points="386,517.1465,376,521.1465,386,525.1465,382,521.1465" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" x1="380" x2="557" y1="521.1465" y2="521.1465"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="52" x="392" y="516.4043">服务结算</text><polygon fill="#A80036" points="46,546.457,36,550.457,46,554.457,42,550.457" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" x1="40" x2="139" y1="550.457" y2="550.457"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="78" x="52" y="545.7148">订单强制结算</text><polygon fill="#A80036" points="546,575.7676,556,579.7676,546,583.7676,550,579.7676" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" x1="140" x2="552" y1="579.7676" y2="579.7676"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="78" x="147" y="575.0254">订单强制结算</text><!--MD5=[65f6bd65aa493c41f24ebf0887da110f]
+@startuml
+用户端 -> POS机: 下单
+用户端 -> POS机: [￥支付 微信 ]
+用户端 - -> 系统: 更新数据
+系统 - -> POS机: 推送消息
+POS机 -> 系统: 评估、补录患者信息
+POS机 -> 系统: [￥收款：微信/支付宝/银行卡/现金]
+系统 - -> 用户端: 查看订单信息
+系统 -> PC端: 查看订单信息
+系统 -> 护工端: 查看订单信息
+系统 -> 系统: 服务开始时间判断
+系统 -> 系统: 服务中
+护工端 - -> 用户端: 推送服务日志
+系统 -> 系统: 服务结束时间判断
+用户端 - -> 护工端: 订单结算
+护工端 - -> 系统: 服务结算
+POS机 - -> 用户端: 订单强制结算
+POS机 - -> 护工端: 订单强制结算
+@enduml
+
+PlantUML version 1.2020.18(Thu Oct 01 03:40:44 CST 2020)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: CN
+--></g></svg></div>
+<h3 id="pos机代下单时序图">POS机代下单(时序图):</h3>
+<div class="plantuml"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="465px" preserveAspectRatio="none" style="width:564px;height:465px;" version="1.1" viewBox="0 0 564 465" width="564px" zoomAndPan="magnify"><defs><filter height="300%" id="f4nxb9snur6dg" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="34" x2="34" y1="40.4883" y2="421.9043"/><line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="269.5" x2="269.5" y1="40.4883" y2="421.9043"/><line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="387.5" x2="387.5" y1="40.4883" y2="421.9043"/><line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="459.5" x2="459.5" y1="40.4883" y2="421.9043"/><line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="524.5" x2="524.5" y1="40.4883" y2="421.9043"/><rect fill="#FEFECE" filter="url(#f4nxb9snur6dg)" height="30.4883" style="stroke: #A80036; stroke-width: 1.5;" width="55" x="5" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="41" x="12" y="25.5352">POS机</text><rect fill="#FEFECE" filter="url(#f4nxb9snur6dg)" height="30.4883" style="stroke: #A80036; stroke-width: 1.5;" width="55" x="5" y="420.9043"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="41" x="12" y="441.4395">POS机</text><rect fill="#FEFECE" filter="url(#f4nxb9snur6dg)" height="30.4883" style="stroke: #A80036; stroke-width: 1.5;" width="42" x="246.5" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="28" x="253.5" y="25.5352">系统</text><rect fill="#FEFECE" filter="url(#f4nxb9snur6dg)" height="30.4883" style="stroke: #A80036; stroke-width: 1.5;" width="42" x="246.5" y="420.9043"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="28" x="253.5" y="441.4395">系统</text><rect fill="#FEFECE" filter="url(#f4nxb9snur6dg)" height="30.4883" style="stroke: #A80036; stroke-width: 1.5;" width="70" x="350.5" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="56" x="357.5" y="25.5352">用户手机</text><rect fill="#FEFECE" filter="url(#f4nxb9snur6dg)" height="30.4883" style="stroke: #A80036; stroke-width: 1.5;" width="70" x="350.5" y="420.9043"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="56" x="357.5" y="441.4395">用户手机</text><rect fill="#FEFECE" filter="url(#f4nxb9snur6dg)" height="30.4883" style="stroke: #A80036; stroke-width: 1.5;" width="46" x="434.5" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="32" x="441.5" y="25.5352">PC端</text><rect fill="#FEFECE" filter="url(#f4nxb9snur6dg)" height="30.4883" style="stroke: #A80036; stroke-width: 1.5;" width="46" x="434.5" y="420.9043"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="32" x="441.5" y="441.4395">PC端</text><rect fill="#FEFECE" filter="url(#f4nxb9snur6dg)" height="30.4883" style="stroke: #A80036; stroke-width: 1.5;" width="56" x="494.5" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="42" x="501.5" y="25.5352">护工端</text><rect fill="#FEFECE" filter="url(#f4nxb9snur6dg)" height="30.4883" style="stroke: #A80036; stroke-width: 1.5;" width="56" x="494.5" y="420.9043"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="42" x="501.5" y="441.4395">护工端</text><polygon fill="#A80036" points="257.5,67.7988,267.5,71.7988,257.5,75.7988,261.5,71.7988" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="34.5" x2="263.5" y1="71.7988" y2="71.7988"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="117" x="41.5" y="67.0566">填写用户信息、下单</text><polygon fill="#A80036" points="257.5,97.1094,267.5,101.1094,257.5,105.1094,261.5,101.1094" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="34.5" x2="263.5" y1="101.1094" y2="101.1094"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="211" x="41.5" y="96.3672">[￥收款：微信/支付宝/银行卡/现金]</text><polygon fill="#A80036" points="375.5,126.4199,385.5,130.4199,375.5,134.4199,379.5,130.4199" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" x1="269.5" x2="381.5" y1="130.4199" y2="130.4199"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="52" x="276.5" y="125.6777">推送短信</text><polygon fill="#A80036" points="280.5,155.7305,270.5,159.7305,280.5,163.7305,276.5,159.7305" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="274.5" x2="458.5" y1="159.7305" y2="159.7305"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="78" x="286.5" y="154.9883">查看订单信息</text><polygon fill="#A80036" points="280.5,185.041,270.5,189.041,280.5,193.041,276.5,189.041" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="274.5" x2="523.5" y1="189.041" y2="189.041"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="78" x="286.5" y="184.2988">查看订单信息</text><line style="stroke: #A80036; stroke-width: 1.0;" x1="269.5" x2="311.5" y1="218.3516" y2="218.3516"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="311.5" x2="311.5" y1="218.3516" y2="231.3516"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="270.5" x2="311.5" y1="231.3516" y2="231.3516"/><polygon fill="#A80036" points="280.5,227.3516,270.5,231.3516,280.5,235.3516,276.5,231.3516" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="104" x="276.5" y="213.6094">服务开始时间判断</text><line style="stroke: #A80036; stroke-width: 1.0;" x1="269.5" x2="311.5" y1="260.6621" y2="260.6621"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="311.5" x2="311.5" y1="260.6621" y2="273.6621"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="270.5" x2="311.5" y1="273.6621" y2="273.6621"/><polygon fill="#A80036" points="280.5,269.6621,270.5,273.6621,280.5,277.6621,276.5,273.6621" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="39" x="276.5" y="255.9199">服务中</text><line style="stroke: #A80036; stroke-width: 1.0;" x1="269.5" x2="311.5" y1="302.9727" y2="302.9727"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="311.5" x2="311.5" y1="302.9727" y2="315.9727"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="270.5" x2="311.5" y1="315.9727" y2="315.9727"/><polygon fill="#A80036" points="280.5,311.9727,270.5,315.9727,280.5,319.9727,276.5,315.9727" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="104" x="276.5" y="298.2305">服务结束时间判断</text><polygon fill="#A80036" points="280.5,341.2832,270.5,345.2832,280.5,349.2832,276.5,345.2832" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" x1="274.5" x2="523.5" y1="345.2832" y2="345.2832"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="52" x="286.5" y="340.541">服务结算</text><polygon fill="#A80036" points="375.5,370.5938,385.5,374.5938,375.5,378.5938,379.5,374.5938" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" x1="34.5" x2="381.5" y1="374.5938" y2="374.5938"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="143" x="41.5" y="369.8516">订单强制结算、推送短信</text><polygon fill="#A80036" points="512.5,399.9043,522.5,403.9043,512.5,407.9043,516.5,403.9043" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" x1="34.5" x2="518.5" y1="403.9043" y2="403.9043"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="78" x="41.5" y="399.1621">订单强制结算</text><!--MD5=[f62b36b81f38d9a1713f56ac7ae9ca8a]
+@startuml
+
+POS机 -> 系统 : 填写用户信息、下单
+POS机 -> 系统: [￥收款：微信/支付宝/银行卡/现金]
+系统 - -> 用户手机: 推送短信
+PC端 -> 系统: 查看订单信息
+护工端 -> 系统: 查看订单信息
+系统 -> 系统: 服务开始时间判断
+系统-> 系统: 服务中
+系统-> 系统: 服务结束时间判断
+护工端 - -> 系统: 服务结算
+POS机 - -> 用户手机: 订单强制结算、推送短信
+POS机 - -> 护工端: 订单强制结算
+
+@enduml
+
+PlantUML version 1.2020.18(Thu Oct 01 03:40:44 CST 2020)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: CN
+--></g></svg></div>
+<h2 id="下单接口文档">下单接口文档</h2>
+
+<h3 id="1-用户端下单接口说明">1. 用户端下单接口说明</h3>
+
+<ul>
+  <li><strong>请求URL</strong>
+    <blockquote>
+      <p><a href="#">http://localhost:8881/api/order/create</a></p>
+    </blockquote>
+  </li>
+  <li><strong>请求方式</strong>
+    <blockquote>
+      <p><strong>POST</strong></p>
+    </blockquote>
+  </li>
+  <li><strong>请求参数</strong></li>
+</ul>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">请求参数</th>
+      <th style="text-align: left">参数类型</th>
+      <th style="text-align: left">必须</th>
+      <th style="text-align: left">参数说明</th>
+      <th style="text-align: left">参考值</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">uopid</td>
+      <td style="text-align: left">String</td>
+      <td style="text-align: left">必须</td>
+      <td style="text-align: left">用户Uopid</td>
+      <td style="text-align: left">odkVKsyBVCiPkzsiJtmCaaAPs6Xc</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">ordtp</td>
+      <td style="text-align: left">Integer</td>
+      <td style="text-align: left">必须</td>
+      <td style="text-align: left">订单类型</td>
+      <td style="text-align: left">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">svctp</td>
+      <td style="text-align: left">Integer</td>
+      <td style="text-align: left">必须</td>
+      <td style="text-align: left">服务类型：1 一对一 / 2 一对多 / 3 团队制</td>
+      <td style="text-align: left">2</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">svcday</td>
+      <td style="text-align: left">Integer</td>
+      <td style="text-align: left">必须</td>
+      <td style="text-align: left">服务天数</td>
+      <td style="text-align: left">4</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">uphone</td>
+      <td style="text-align: left">String</td>
+      <td style="text-align: left">必须</td>
+      <td style="text-align: left">患者手机号码</td>
+      <td style="text-align: left">18616579337</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">startday</td>
+      <td style="text-align: left">Date</td>
+      <td style="text-align: left">必须</td>
+      <td style="text-align: left">服务开始时间</td>
+      <td style="text-align: left">2018-08-13</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">pstnid</td>
+      <td style="text-align: left">String</td>
+      <td style="text-align: left">必须</td>
+      <td style="text-align: left">病区ID</td>
+      <td style="text-align: left">581</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">bed</td>
+      <td style="text-align: left">String</td>
+      <td style="text-align: left">必须</td>
+      <td style="text-align: left">床位号</td>
+      <td style="text-align: left">33</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">sitmid</td>
+      <td style="text-align: left">Integer</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left">价格ID</td>
+      <td style="text-align: left">297</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">svctp2</td>
+      <td style="text-align: left">String</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left">服务类型2</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">nightcare</td>
+      <td style="text-align: left">Boolean</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left">夜陪标志</td>
+      <td style="text-align: left">true</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">age</td>
+      <td style="text-align: left">Integer</td>
+      <td style="text-align: left">必须</td>
+      <td style="text-align: left">年龄</td>
+      <td style="text-align: left">76</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">disease</td>
+      <td style="text-align: left">Integer</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left">疾病标签</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">rlnm</td>
+      <td style="text-align: left">String</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left">患者真实姓名</td>
+      <td style="text-align: left">患者姓名</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">sex</td>
+      <td style="text-align: left">String</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left">性别：0 女 1男</td>
+      <td style="text-align: left">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">wuid</td>
+      <td style="text-align: left">String</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left">护工UID</td>
+      <td style="text-align: left">WK_cSjgwj5nIhdzJ_kfd83oNnH6I8yBZ</td>
+    </tr>
+  </tbody>
+</table>
+
+<ul>
+  <li><strong>返回参数</strong></li>
+</ul>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">返回参数</th>
+      <th style="text-align: left">参数类型</th>
+      <th style="text-align: left">参数说明</th>
+      <th style="text-align: left">参考值</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">success</td>
+      <td style="text-align: left">boolean</td>
+      <td style="text-align: left">请求成功与否</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">code</td>
+      <td style="text-align: left">Integer</td>
+      <td style="text-align: left">执行结果code</td>
+      <td style="text-align: left">0</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">message</td>
+      <td style="text-align: left">String</td>
+      <td style="text-align: left">执行结果</td>
+      <td style="text-align: left">执行成功</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">orduid</td>
+      <td style="text-align: left">String</td>
+      <td style="text-align: left">订单号码</td>
+      <td style="text-align: left">ORD_48dj2B3vU1NkPOQjYpveN6YPOo05</td>
+    </tr>
+  </tbody>
+</table>
+
+<ul>
+  <li><strong>返回示例</strong>
+    <blockquote>
+
+      <div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">{</span>
+<span class="s">"success"</span><span class="o">:</span> <span class="kc">true</span><span class="o">,</span>
+<span class="s">"code"</span><span class="o">:</span> <span class="mi">0</span><span class="o">,</span>
+<span class="s">"message"</span><span class="o">:</span> <span class="s">"操作正确"</span>
+<span class="s">"orduid"</span><span class="o">:</span><span class="s">"ORD_48dj2B3vU1NkPOQjYpveN6YPOo05"</span>
+<span class="o">}</span>
+</code></pre></div>      </div>
+      <h3 id="2-pos机代下单接口文档">2. POS机代下单接口文档</h3>
+    </blockquote>
+  </li>
+  <li><strong>请求URL</strong>
+    <blockquote>
+      <p><a href="#">http://localhost:8883/api/posorder/replace</a></p>
+    </blockquote>
+  </li>
+  <li><strong>请求方式</strong>
+    <blockquote>
+      <p><strong>POST</strong></p>
+    </blockquote>
+  </li>
+  <li><strong>请求参数</strong></li>
+</ul>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">请求参数</th>
+      <th style="text-align: left">参数类型</th>
+      <th style="text-align: left">必须</th>
+      <th style="text-align: left">参数说明</th>
+      <th style="text-align: left">参考值</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">wstatncd</td>
+      <td style="text-align: left">String</td>
+      <td style="text-align: left">必须</td>
+      <td style="text-align: left">所在护工站CD</td>
+      <td style="text-align: left">31010900053</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">svctp</td>
+      <td style="text-align: left">String</td>
+      <td style="text-align: left">必须</td>
+      <td style="text-align: left">服务类型：1 一对一 / 2 一对多 / 3 团队制</td>
+      <td style="text-align: left">2</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">svcday</td>
+      <td style="text-align: left">Integer</td>
+      <td style="text-align: left">必须</td>
+      <td style="text-align: left">服务天数</td>
+      <td style="text-align: left">8</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">uphone</td>
+      <td style="text-align: left">String</td>
+      <td style="text-align: left">必须</td>
+      <td style="text-align: left">患者手机</td>
+      <td style="text-align: left">18616579337</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">startday</td>
+      <td style="text-align: left">Date</td>
+      <td style="text-align: left">必须</td>
+      <td style="text-align: left">服务开始时间</td>
+      <td style="text-align: left">2018-08-13</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">pstnid</td>
+      <td style="text-align: left">String</td>
+      <td style="text-align: left">必须</td>
+      <td style="text-align: left">病区ID</td>
+      <td style="text-align: left">581</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">bed</td>
+      <td style="text-align: left">String</td>
+      <td style="text-align: left">必须</td>
+      <td style="text-align: left">床位号</td>
+      <td style="text-align: left">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">age</td>
+      <td style="text-align: left">Integer</td>
+      <td style="text-align: left">必须</td>
+      <td style="text-align: left">年龄</td>
+      <td style="text-align: left">76</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">disease</td>
+      <td style="text-align: left">Integer</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left">疾病标签</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">rlnm</td>
+      <td style="text-align: left">String</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left">患者真实姓名</td>
+      <td style="text-align: left">患者姓名</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">sex</td>
+      <td style="text-align: left">String</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left">性别：0 女 1男</td>
+      <td style="text-align: left">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">wuid</td>
+      <td style="text-align: left">String</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left">护工UID</td>
+      <td style="text-align: left">WK_cSjgwj5nIhdzJ_kfd83oNnH6I8yBZ</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">uoipd</td>
+      <td style="text-align: left">String</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left">用户uopid</td>
+      <td style="text-align: left">null</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">sitmid</td>
+      <td style="text-align: left">Integer</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left">价格ID</td>
+      <td style="text-align: left">297</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">grpamount</td>
+      <td style="text-align: left">Integer</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left">团队制订单价格</td>
+      <td style="text-align: left">null</td>
+    </tr>
+  </tbody>
+</table>
+
+<ul>
+  <li><strong>返回参数</strong></li>
+</ul>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">返回参数</th>
+      <th style="text-align: left">参数类型</th>
+      <th style="text-align: left">参数说明</th>
+      <th style="text-align: left">参考值</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">success</td>
+      <td style="text-align: left">boolean</td>
+      <td style="text-align: left">请求成功与否</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">code</td>
+      <td style="text-align: left">Integer</td>
+      <td style="text-align: left">执行结果code</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">message</td>
+      <td style="text-align: left">String</td>
+      <td style="text-align: left">执行结果消息</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">orduid</td>
+      <td style="text-align: left">String</td>
+      <td style="text-align: left">执行结果消息</td>
+      <td style="text-align: left">ORD_X7IS7TYobMXybv9hfEqPFoavsrQw</td>
+    </tr>
+  </tbody>
+</table>
+
+<ul>
+  <li><strong>返回示例</strong>
+    <blockquote>
+
+      <div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">{</span>
+<span class="s">"success"</span><span class="o">:</span> <span class="kc">true</span><span class="o">,</span>
+<span class="s">"code"</span><span class="o">:</span> <span class="mi">200</span><span class="o">,</span>
+<span class="s">"message"</span><span class="o">:</span> <span class="s">"操作正确"</span><span class="o">,</span>
+<span class="s">"orduid"</span><span class="o">:</span><span class="s">"ORD_X7IS7TYobMXybv9hfEqPFoavsrQw"</span>
+<span class="o">}</span>
+</code></pre></div>      </div>
+    </blockquote>
+  </li>
+</ul>
+
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2020-10-03T00:00:00+08:00">October 3, 2020</time></p>
+
+
+      </footer>
+
+      <section class="page__share">
+  
+    <h4 class="page__share-title">Share on</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?text=Oa3.0+%E8%B4%A6%E6%88%B7%E4%B8%AD%E5%BF%83%20http%3A%2F%2Flocalhost%3A4000%2F2020-10-03-oa3.0-%25E8%25B4%25A6%25E6%2588%25B7%25E4%25B8%25AD%25E5%25BF%2583%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2F2020-10-03-oa3.0-%25E8%25B4%25A6%25E6%2588%25B7%25E4%25B8%25AD%25E5%25BF%2583%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2F2020-10-03-oa3.0-%25E8%25B4%25A6%25E6%2588%25B7%25E4%25B8%25AD%25E5%25BF%2583%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/jekyll/2017-11-28-post-exclude-search/" class="pagination--pager" title="Exclude Post from Search Index
+">Previous</a>
+    
+    
+      <a href="/2020-10-03-%E5%90%AF%E4%B8%9C%E5%9B%A2%E9%98%9F%E5%88%B6/" class="pagination--pager" title="启东团队制
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h4 class="page__related-title">You may also enjoy</h4>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/2020-10-03-%E8%AE%A2%E5%8D%95%E5%87%8F%E5%85%8D/" rel="permalink">订单减免
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">qo_ord
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/2020-10-03-%E8%AE%A2%E5%8D%95%E4%B8%8E%E7%BB%93%E7%AE%97%E9%80%BB%E8%BE%91-%E8%AE%A2%E5%8D%95%E5%8F%98%E6%9B%B4/" rel="permalink">订单与结算逻辑 订单变更
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          5 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">03. 订单与结算逻辑.订单变更
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/2020-10-03-%E8%AE%A2%E5%8D%95%E4%B8%8E%E7%BB%93%E7%AE%97%E9%80%BB%E8%BE%91-%E8%AE%A2%E5%8D%95/" rel="permalink">订单与结算逻辑 订单
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          3 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">01. 订单与结算逻辑.订单
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/2020-10-03-%E8%AE%A2%E5%8D%95%E4%B8%8E%E7%BB%93%E7%AE%97%E9%80%BB%E8%BE%91-%E7%BB%93%E7%AE%97%E4%B8%8E%E6%94%AF%E4%BB%98/" rel="permalink">订单与结算逻辑 结算与支付
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          7 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">01. 订单与结算逻辑.结算与支付
+</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2020 kei gosling. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

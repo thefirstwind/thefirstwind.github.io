@@ -274,6 +274,8 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll-plantuml
+  - kramdown-plantuml
 
 # mimic GitHub Pages with --safe
 whitelist:
