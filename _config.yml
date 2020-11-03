@@ -221,7 +221,8 @@ plugins:
   - jekyll-include-cache
   - jekyll-plantuml
   - kramdown-plantuml
-
+  - jekyll-asciidoc
+  - asciidoctor-diagram
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
@@ -231,6 +232,8 @@ whitelist:
   - jekyll-include-cache
   - jekyll-plantuml
   - kramdown-plantuml
+  - jekyll-asciidoc
+  - asciidoctor-diagram
 
 
 # Archives
