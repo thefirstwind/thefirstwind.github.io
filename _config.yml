@@ -13,18 +13,19 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Passbolt | Help
-email: contact@passbolt.com
+
+title: Kei Gosling's blog
+email: thefirstwind@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   The help site for passbolt, the open source password manager for teams.
   This site contains frequently asked questions, article to troubleshoot common issues,
   installation tutorials, blueprints for developers, and more!
 
 baseurl: ""
-url: "https://help.passbolt.com"
+url: "https://thefirstwind.github.io"
 
-twitter_username: passbolt
-github_username:  passbolt
+#twitter_username: passbolt
+github_username:  thefirstwind
 
 # Build settings
 markdown: kramdown
